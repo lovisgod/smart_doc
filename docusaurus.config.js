@@ -2,13 +2,13 @@
 module.exports = {
   title: 'Smart POS',
   tagline: 'Smart POS SDK documentations',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://devicesandtokens.github.io',
+  baseUrl: '/smart_pos_doc',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'devicesandtokens', // Usually your GitHub org/user name.
+  projectName: 'smart_pos_doc', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Smart POS',
