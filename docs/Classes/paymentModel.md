@@ -10,10 +10,10 @@ This class holds information about the transaction to be made.
 
 `amount`: String
 
-`paymentType`: [PaymentType](#)
+`paymentType`: [PaymentType](payment-type)
 
-`type`: [TransactionType](#)
+`type`: [TransactionType](transactionType)
 
-`cardType`: [CardType](#)
+`cardType`: [CardType](cardType)
 
 

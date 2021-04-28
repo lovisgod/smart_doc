@@ -11,9 +11,9 @@ Let's discover **Smart POS in less than 5 minutes**.
 SmartPOS SDK is a simple to use SDK for the purpose of building Android App on POS terminals
 The SDK is divided into three(3) modules namely -
 
-[`smart-pos-core`](https://github.com/ebi-igweze/simple-call-adapter)
-[`smart-pos-emv-pax`](https://github.com/ebi-igweze/simple-call-adapter)
-[`smart-pos-usb`](https://github.com/ebi-igweze/simple-call-adapter)
+[`smart-pos-core`](#)
+[`smart-pos-emv-pax`](#)
+[`smart-pos-usb`](#)
 
 Coupled with this libraries, you will need to also add a network wrapper class to help with conerter class for xml responses.
 [`Ebi Simple adaptar`](https://github.com/ebi-igweze/simple-call-adapter)

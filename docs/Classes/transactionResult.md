@@ -8,7 +8,7 @@ This class holds information about the result of the transaction request.
 
 ### PROPERTIES
 
-`paymentType`: PaymentType,
+`paymentType`: [PaymentType](payment-type),
 
 `stan`: String,
 
@@ -16,7 +16,7 @@ This class holds information about the result of the transaction request.
 
 `amount`: String
 
-`type`: TransactionType
+`type`: [TransactionType](transactionType)
 
 `cardPan`: String
 

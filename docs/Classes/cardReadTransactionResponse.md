@@ -8,12 +8,12 @@ This class holds information about the response sent back after a transaction.
 
 ### PROPERTIES
 
-`onlineProcessResult`: [CardOnlineProcessResult](#)?
+`onlineProcessResult`: [CardOnlineProcessResult](cardOnlineProcessResult)?
 
-`transactionResponse`: [TransactionResponse](#)?
+`transactionResponse`: [TransactionResponse](transactionResponse)?
 
-`emvData`: [EmvData](#)?
+`emvData`: [EmvData](emvData)?
 
-`transactionResult`: [TransactionResult](#)?
+`transactionResult`: [TransactionResult](transactionResult)?
 
 

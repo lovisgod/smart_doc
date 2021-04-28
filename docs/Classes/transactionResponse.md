@@ -30,6 +30,6 @@ This class holds information about the response sent back after a transaction.
 
 `rrn`: String
 
-`type`: TransactionType = [TransactionType](#)
+`type`: TransactionType = [TransactionType](transactionType)
 
 
