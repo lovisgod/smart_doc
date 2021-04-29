@@ -15,7 +15,7 @@ The SDK is divided into three(3) modules namely -
 [`smart-pos-emv-pax`](#)
 [`smart-pos-usb`](#)
 
-Coupled with this libraries, you will need to also add a network wrapper class to help with conerter class for xml responses.
+Coupled with this libraries, you will need to also add a network wrapper class to help with converter class for xml responses.
 [`Ebi Simple adaptar`](https://github.com/ebi-igweze/simple-call-adapter)
 
 this three modules should be downloaded and added to your project.
