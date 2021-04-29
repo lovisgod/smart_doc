@@ -29,4 +29,4 @@ IswHandler().validateBankDetails(bankCode = "044", accountNumber="0095555555")
 
 ##
 
-As a result, a **[Success`<BeneficiaryModel>`](/docs/model-classes-definations/greeting)** is returned if successful and **[Failure](/docs/model-classes-definations/greeting)** if unsuccessful
+As a result, a **[Success`<BeneficiaryModel>`](/docs/Classes/beneficiaryModel)** is returned if successful and **[Failure](#)** if unsuccessful
