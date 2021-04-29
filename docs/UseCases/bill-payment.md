@@ -29,8 +29,8 @@ IswHandler().processBillPaymentTransaction(
 
 ## Parameters
 
-- **paymentModel:** [PaymentModel](/docs/Classes/account-type)
-- **accountType:** [AccountType](/docs/model-classes-definations/greeting)
+- **paymentModel:** [PaymentModel](/docs/Classes/paymentModel)
+- **accountType:** [AccountType](/docs/classes/account-type)
 - **terminalInfo:** [TerminalInfo](/docs/Classes/terminalInfo).
 - **isAirtime:** [Boolean](#) This is ***true*** when the bill payment time is for airtime purchase
 
