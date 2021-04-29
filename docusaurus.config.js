@@ -3,7 +3,7 @@ module.exports = {
   title: 'Smart POS',
   tagline: 'Smart POS SDK documentations',
   url: 'https://devicesandtokens.github.io',
-  baseUrl: '/smart_pos_doc',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

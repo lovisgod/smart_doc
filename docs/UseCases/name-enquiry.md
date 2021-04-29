@@ -13,19 +13,19 @@ You can validate bank details using this service.
 
 ## Perform name enquiry
 
-```
-# Import the ISWHandler from com.interswitchng.smartpos.IswTxnHandler
+```jsx
+// Import the ISWHandler from com.interswitchng.smartpos.IswTxnHandler
 
 
-# use
+// use
 IswHandler().validateBankDetails(bankCode = "044", accountNumber="0095555555")
 
 ```
 
 ## Parameters
 
-- **bankCode:** The CBN bank code of the financial institution
-- **accountNumber:** The 10 digit NUBAN account number
+- **bankCode:** [String](#) (The CBN bank code of the financial institution)
+- **accountNumber:** [String](#) (The 10 digit NUBAN account number)
 
 ##
 
