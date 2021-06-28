@@ -6,7 +6,7 @@ title: Name Enquiry
 
 
 
-# Create a Document
+# name enquiry
 
 You can validate bank details using this service.
 

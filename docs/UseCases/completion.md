@@ -1,28 +1,28 @@
 ---
-sidebar_position: 1
-id: bill-payment
-title: Bill payment
+sidebar_position: 12
+id: completion
+title: Completion
 ---
 
 
 
-# Bill payment
+# Completion
 
-You can make bill payments by details using this service.
+You can perform completion transaction using this service.
 
 
-## Perform name enquiry
+## Perform Completion
 
 ```jsx
 // Import the ISWHandler from com.interswitchng.smartpos.IswTxnHandler
 
 
-// use to process bill payment
-IswHandler().processBillPaymentTransaction(
+// use to process completion
+IswHandler().processDepositTransaction(
                 paymentModel: PaymentModel,
                 accountType: AccountType,
                 terminalInfo: TerminalInfo,
-                isAirTime: Boolean
+                originalTxnData: OriginalTransactionInfoData
             )
 
 ```
@@ -32,7 +32,6 @@ IswHandler().processBillPaymentTransaction(
 - **paymentModel:** [PaymentModel](/docs/Classes/paymentModel)
 - **accountType:** [AccountType](/docs/classes/account-type)
 - **terminalInfo:** [TerminalInfo](/docs/Classes/terminalInfo).
-- **isAirtime:** [Boolean](#) This is ***true*** when the bill payment time is for airtime purchase
-
+- **originalTxnData:** [OriginalTransactionInfoData](/docs/Classes/terminalInfo).
 ##
 
