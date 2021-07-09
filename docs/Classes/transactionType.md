@@ -33,6 +33,14 @@ This is the class that represent the type of transaction to be made.
 
 `AIRTIME`
 
+`BALANCE`
+
+ `PINSELECT`
+ 
+ `DEPOSIT`
+ 
+ `WITHDRAWAL`
+
 This is enum type of class
 
 
