@@ -35,11 +35,11 @@ This is the class that represent the type of transaction to be made.
 
 `BALANCE`
 
- `PINSELECT`
+`PINSELECT`
  
- `DEPOSIT`
+`DEPOSIT`
  
- `WITHDRAWAL`
+`WITHDRAWAL`
 
 This is enum type of class
 

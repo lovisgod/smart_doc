@@ -33,6 +33,9 @@ Configure the SDK in your android Application class or your main Activity or Fra
 
 POSDeviceImpl device  = POSDeviceImpl.create(getApplicationContext());
 
+// PLEASE NOTE THAT FOR THE TELPO TERMINAL, YOU HAVE TO USE THE TELPODEVICEIMPL CLASS
+TelpoPOSDeviceImpl device = TelpoPOSDeviceImpl.create(getApplicationContext());
+
 String clientId = "your-client-id";
 String clientSecret = "your-client-secret";
 String alias = "your-alias";
