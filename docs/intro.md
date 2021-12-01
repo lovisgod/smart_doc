@@ -15,8 +15,7 @@ The SDK is divided into three(3) modules namely -
 [`smart-pos-emv-pax`](#)
 [`smart-pos-usb`](#)
 
-Coupled with this libraries, you will need to also add a network wrapper class to help with converter class for xml responses.
-[`Ebi Simple adaptar`](https://github.com/ebi-igweze/simple-call-adapter)
+
 
 this three modules should be downloaded and added to your project.
 In addition to these modules, you need to use eze simple library to so that the app will work  better.
@@ -48,7 +47,7 @@ POSConfig config = new POSConfig(alias, clientId, clientSecret, merchantCode);
 IswPos.setupTerminal(getApplication(), device, config);
 ```
 
-Configure Terminal
+### Configure Terminal
 In order to communicate effectively with the terminal, some initialization and configuration needs to be done.
 
 ### GET TERMINAL CONFIG
@@ -60,6 +59,13 @@ IswHandler().downloadTmKimParam()
 // download keys
 IswHandler().downloadKeys(terminalId: String, ip: String, port: Int, isNibbsTest: Boolean?)
 
+// NOTE: To download specifically NIBSS key, you can call this method
+
+IswHandler().downloadNibssKeys(terminalId: String, ip: String, port: Int, isNibbsTest: Boolean?)
+
+// NOTE: To download nibss terminal  info/parameters alone, you can call this method
+IswHandler().downloadTmNibParam(terminalId: String, ip: String, port: Int)
+
 // Save the terminal terminal info
 IswHandler().saveTerminalInfo(terminalInfo: TerminalInfo)
 
@@ -67,6 +73,7 @@ IswHandler().saveTerminalInfo(terminalInfo: TerminalInfo)
 IswHandler().getTerminalInfo()
 
 ```
+
 
 ### PROCESS TRANSACTION
 For you to process a successful transaction you need to first SetupTransaction, Start transaction, and then send your transaction to the server.
