@@ -11,6 +11,8 @@ title: Other-Payment-Methods
 For Developers or Business that want to use other payment methods other than card, they can use
 the following methods and pass in the neccesary parameters.
 
+# NOTE : To use this methods successfully you need get a working merchant alias and merchant code. This should be part of the terminal info.
+
 
 ## Transfer
 
