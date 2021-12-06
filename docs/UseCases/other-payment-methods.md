@@ -23,11 +23,7 @@ the following methods and pass in the neccesary parameters.
 // import com.interswitchng.smartpos.shared.models.transaction.CardLessPaymentInfo
 
 
-// First you need to list allowed banks and choose the bank you want. 
-// to list banks, use this method..
-IswHandler().loadbanks()
-
-// After listing banks and choosing bank, you need to get the virtual account details the customer need to send it to. 
+//you need to get the virtual account details the customer need to send it to. 
 IswHandler().loadVirtualAccountDetails(request: CardLessPaymentRequest)
 
 // use checkpayment to check if the user had made the payment using any of the payment methods.
@@ -69,7 +65,20 @@ IswHandler().initiatePaycodeTransaction(terminalInfo: TerminalInfo,
 // import com.interswitchng.smartpos.shared.models.transaction.CardLessPaymentInfo
 
 
-// Use this method to initaiate USSD transaction. 
+// First you need to list allowed banks and choose the bank you want. 
+// to list banks, use this method..
+IswHandler().loadbanks()
+
+
+// After selecting the bank you want to Use, Use this method to initaiate USSD transaction. 
+
+ var paymentInfo = CardLessPaymentInfo(amount = 100, "", surcharge = 0, additionalAmounts = 0)
+var request = CardLessPaymentRequest.from(
+    terminalInfo!!,
+    paymentInfo,
+   CardLessPaymentRequest.TRANSACTION_USSD,
+   bankCode = bankList.get(0).code // this is gotten from the bank list
+  )
 
 IswHandler().initiateUssdTransactions(request: CardLessPaymentRequest)
 
