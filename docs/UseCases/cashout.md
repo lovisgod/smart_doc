@@ -23,7 +23,8 @@ IswHandler().processCashoutTransferTransaction(
                 accountType: AccountType,
                 terminalInfo: TerminalInfo,
                 destinationAccountNumber: String? = "",
-                receivingInstitutionId: String? = ""
+                receivingInstitutionId: String? = "",
+                
             )
 
 ```
