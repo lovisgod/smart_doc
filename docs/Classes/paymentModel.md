@@ -16,4 +16,6 @@ This class holds information about the transaction to be made.
 
 `cardType`: [CardType](cardType)
 
+`ett`: [ETT](/docs/Enums/ett) (optional)
+
 
